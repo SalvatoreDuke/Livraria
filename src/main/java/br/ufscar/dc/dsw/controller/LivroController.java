@@ -1,7 +1,7 @@
 package br.ufscar.dc.dsw.controller;
 
-import br.ufscar.dc.dsw.dao.EditoraDAO;
 import br.ufscar.dc.dsw.dao.LivroDAO;
+import br.ufscar.dc.dsw.dao.EditoraDAO;
 import br.ufscar.dc.dsw.domain.Editora;
 import br.ufscar.dc.dsw.domain.Livro;
 import java.io.IOException;
@@ -20,10 +20,12 @@ public class LivroController extends HttpServlet {
 
     private static final long serialVersionUID = 1L;
     private LivroDAO dao;
+    private EditoraDAO editoraDAO;
 
     @Override
     public void init() {
         dao = new LivroDAO();
+        editoraDAO = new EditoraDAO();
     }
 
     @Override

@@ -7,6 +7,7 @@
     <title>Livraria Virtual</title>
 </head>
 <body>
+<p><a href="editoras/listagem">Gerenciar Editoras</a></p>
 <a href="livros">CRUD Livros</a>
 </body>
 </html>
