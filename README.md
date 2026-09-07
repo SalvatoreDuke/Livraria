@@ -7,7 +7,6 @@ Projeto acadêmico com foco em modelagem orientada a objetos e persistência de 
 ## Funcionalidades
 
 - Cadastro de livros, autores e categorias
-- (ajuste conforme o escopo real do projeto)
 
 ## Conceitos aplicados
 
